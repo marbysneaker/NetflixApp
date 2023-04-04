@@ -9,11 +9,11 @@ const Home = () => {
   return (
     <div>
         <Main/>
-        <Row title = 'Up coming' fetchUrl = {request.requestUpcoming}/>
-        <Row title = 'Top Rated' fetchUrl = {request.requestTopRated}/>
-        <Row title = 'Trending' fetchUrl = {request.requestTrending}/>
-        <Row title = 'Up coming' fetchUrl = {request.requestUpcoming}/>
-        <Row title = 'Up coming' fetchUrl = {request.requestUpcoming}/>
+        <Row rowId='1' title='Up coming' fetchUrl = {request.requestUpcoming}/>
+        <Row rowId='2' title = 'Top Rated' fetchUrl = {request.requestTopRated}/>
+        <Row rowId='3' title = 'Trending' fetchUrl = {request.requestTrending}/>
+        <Row rowId='4' title = 'Up coming' fetchUrl = {request.requestUpcoming}/>
+        <Row rowId='5' title = 'Up coming' fetchUrl = {request.requestUpcoming}/>
     </div>
   )
 }
