@@ -13,7 +13,7 @@ export function AuthContextProvider({children}){
         return createUserWithEmailAndPassword(auth, email, password);
     }
     return (
-        <AuthContext.Provider>
+        <AuthContext.Provider value>
             {children}
         </AuthContext.Provider>
     )
